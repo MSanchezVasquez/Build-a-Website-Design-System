@@ -1,0 +1,59 @@
+/*Section Fonts*/
+.fonts {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #fff0e5;
+}
+.fonts .title {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+.font {
+  width: 450px;
+  border: 3px solid #107dac;
+  border-radius: 8px;
+  margin: 15px 15px 15px 0;
+  text-align: center;
+  align-content: center;
+  height: auto;
+  color: #0a0d1c;
+}
+.font-label {
+  text-decoration: underline;
+  font-size: 20px;
+}
+.source-code-pro {
+  font-family: "Source Code Pro", monospace;
+}
+.nunito-sans {
+  font-family: "Nunito Sans";
+}
+.poppins {
+  font-family: "Poppins";
+}
+.fredoka {
+  font-family: "Fredoka";
+}
+.regular {
+  font-style: normal;
+}
+.bold {
+  font-weight: 700;
+}
+.italic {
+  font-style: italic;
+}
+.font:hover {
+  cursor: pointer;
+  background: hsla(20, 1%, 46%, 0.748);
+}
+.font h3 {
+  text-decoration: underline;
+}

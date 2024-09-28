@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background: #0a0d1c;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 30px 250px 60px 250px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .title {
+  font-family: "Nunito Sans", sans-serif;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.contenido li {
+  display: inline;
+}
+.contenido li a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  padding: 2px 5px;
+}
+.contenido li a:hover {
+  background-color: #3a10e5;
+  color: #ffd300;
+  cursor: pointer;
+}
+.contenido li a:active {
+  background-color: cadetblue;
+}
+
+.banner {
+  text-align: center;
+}
+.banner h1 {
+  font-family: "Croissant One";
+  font-size: 3em;
+}
+hr {
+  width: 50%;
+  margin-top: 60px;
+}
+main {
+  margin: 30px 250px 0 250px;
+}
+
+/*section Colors*/
+.colors {
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap;
+  background: #fff0e5;
+}
+/*@media only screen and (max-width: 850px) {
+  .colors {
+    flex-direction: column;
+  }
+}*/
+.colors .title {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+.color {
+  margin: 15px 15px 15px 0;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  align-content: center;
+  color: black;
+}
+
+.cool-blue {
+  background: #107dac;
+}
+.pink {
+  background: pink;
+}
+.mint-green {
+  background: #4fe0b0;
+}
+.beige {
+  background: #efd9ca;
+}
+.yellow {
+  background: #ffd300;
+}
+.purple {
+  background: #3a10e5;
+}
+
+/*Section Box Model*/
+
+.box-model {
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap;
+  background: hsl(48, 12%, 16%);
+  margin-top: 20px;
+  color: black;
+  justify-content: space-evenly;
+  height: auto;
+}
+.box-model .title {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffd300;
+  margin-bottom: 20px;
+}
+.box {
+  width: 530px;
+  height: 400px;
+}
+.box img {
+  width: 450px;
+  height: 400px;
+  border-radius: 8px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #efd9ca;
+  font-family: "Merriweather";
+  margin: 50px 250px 0 250px;
+  border-radius: 20px 20px 0 0;
+}
+
+.question,
+.follow {
+  color: #0a0d1c;
+  font-family: "Merriweather";
+}
+.github,
+.codecademy {
+  height: 50px;
+  width: 50px;
+  padding-right: 10px;
+}
+.github:hover,
+.codecademy:hover {
+  color: gray;
+}
